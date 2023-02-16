@@ -1,0 +1,5 @@
+print("Hello world from Marie")
+print("Hello world from Marie")
+print("Marie is a genius")
+print("Straight from the east")
+print('#Hello world from Marie')
