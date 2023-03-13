@@ -1,0 +1,36 @@
+p{
+    color: rgb(235, 173, 15);
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+#msg_button{background-color:rgb(16, 3, 20);
+    align-self: self-end;
+    font-size: 75px;
+    border-radius: 50px;
+    border: black;
+    color:#e935e9 ;
+
+}
+
+body{
+    background-color:#ffe6e6 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-height: max-content;
+}
+

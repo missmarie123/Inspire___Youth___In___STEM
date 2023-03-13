@@ -1,0 +1,48 @@
+
+
+
+p{ 
+    color: goldenrod;
+font-size: medium;
+font-family: cursive;
+font-style: italic;
+font-weight: bold;
+}
+
+.h1{
+    font-size: 40px;
+    color: rgb(92, 255, 92);
+    align-self: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: max-content;
+}
+
+.body{
+    background-color: rgb(82, 58, 104);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.p{font-size: large;
+    color: rgb(22, 66, 146);
+     align-self: stretch;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#msg_button{background-color:rgb(129, 17, 163);
+    align-self: center;
+    border-radius: 15px;
+    border: none;
+    color:#03031b ;
+    padding: 10px;
+}
+
+#snd_button{background-color: rgb(129, 17, 163);
+    align-self: center;
+    border-radius: 15px;
+    border: none;
+    color: #03031b;
+    padding: 10px;
+}
