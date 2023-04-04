@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="id.css">
+    </head>
+    <body> 
+            
+    <h1>MARIE'S PLAYLIST</h1>
+
+    <p>
+       <h2>(1)Monica and Brandy</h2><br>
+       <img src = "background/1078.jpeg"><br>
+       <audio controls>
+        <source src = "spotify dupe/Brandy & Monica - The Boy is Mine (Lyrics).mp3"
+        type = "audio/mp3">
+        </audio>
+            <button id="increase_btn">PLAY</button><br><br>
+            <button id="decrease_btn">PAUSE</button><br><br>
+        
+        <h2>(2)Usher</h2>
+        <img src = "background/10799.jpeg"><br>
+        <audio controls>
+            <source src = "spotify dupe/Usher - U Remind Me (Official Music Video).mp3"
+
+            type = "audio/mp3">
+        </audio>
+        <button id="increase_btn">PLAY</button><br><br>
+        <button id="decrease_btn">PAUSE</button><br><br>
+
+        <h2>(3)Mario</h2>
+        <img src = "background/1077.jpeg"><br>
+
+        <audio controls>
+            <source src = "spotify dupe/Mario - Just a Friend 2002.mp3"
+
+            type = "audio/mp3">
+        </audio>
+   
+        <button id="increase_btn">PLAY</button><br><br>
+            <button id="decrease_btn">PAUSE</button><br><br>
+        
+        <h2>(4)Trey Songz</h2>
+        <img src = "background/1079.jpeg"> <br>
+        <audio controls>
+            <source src = "spotify dupe/Can't Help But Wait Lyrics [Trey Songz].mp3"
+
+            type = "audio/mp3">
+        </audio>
+   
+        <button id="increase_btn">PLAY</button><br><br>
+            <button id="decrease_btn">PAUSE</button><br><br>
+        </p>
+
+            
+    <script>
+
+
+                document.getElementById("decrease_btn").onclick = function pause(){
+                number -= 1;
+                console.log(number)
+                document.getElementById("number").innerHTML= number
+                }
+
+                document.getElementById("increase_btn").onclick = function play(){
+                number += 1;
+                console.log(number)
+                document.getElementById("number").innerHTML = number
+                }
+
+
+    </script>
+
+    </body>           
+</html>

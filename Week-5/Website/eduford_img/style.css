@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+.header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(images/banner.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+}
+
+.nav{
+display: flex;
+padding: 2%  6%;
+justify-content: space-between;
+align-items: center;
+}
+
+nav img{
+    width: 150px ;
+ }  
+ 
+ .nav-links{
+    flex:1;
+    text-align: right;
+ }
+
+.nav-links li{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+  display: inline-block;
+
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  color: #fff;
+}
+  
+.nav-links ul li  a{
+    color: #647712;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.hero-btn{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+    
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition:1s;
+    align-self: first baseline;
+}
+
+.text-box{
+    text-align: center;
+    line-height: 50px;
+
+    
+
+}
+
+h1{
+    color: hsl(80, 90%, 25%);
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+p{
+    color: rgb(4, 134, 4);
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: lighter;
+font-size: 30px;
+
+}

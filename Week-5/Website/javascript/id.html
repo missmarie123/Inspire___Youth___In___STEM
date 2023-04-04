@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="id.css">
+        <title>CLUB ENTRY!!</title>
+    </head>
+    <body>
+    
+        <h1>Club Identification</h1>
+
+        <h2>Fill in the form below:</h2>
+       
+     <form>
+                    <label for = "name">Name:</label> 
+                    <input type = "text" id="name" name="name"><br></br>
+                    <label for = "age">Age:</label>
+                    <input type= "number" id="age" name="age"> <br></br>
+                    <button type="button" onclick="checkage()">enter</button>
+                    
+    </form>
+             <div id="result"></div>
+              
+                <script>
+                 
+                 function checkage() {
+
+                //Inputing the value of age and name
+
+                var name =  document.getElementById("name").value;
+                var age =  document.getElementById("age").value;
+
+                //Checking if the person has qualified 
+                if(age>= 18)  {
+
+                //Message to dispaly if the user is qualified
+                document.getElementById("result").innerHTML="Congratulations" + " " + name +  ",Welcome to the club";
+                }
+
+                else{
+                document.getElementById("result").innerHTML="Sorry" + " " +name + ",Too young to club";
+
+                }
+
+                 }
+
+                </script>
+    </body>
+</html>

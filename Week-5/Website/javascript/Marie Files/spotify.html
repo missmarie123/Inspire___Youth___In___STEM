@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="id.css">
+</head>
+
+<body>
+
+    <h1>MARIE'S PLAYLIST</h1>
+
+    <p>
+    <h2>(1)Monica and Brandy</h2><br>
+    <img src="spotify dupe/1078.jpeg" class="artist_image"><br>
+    <audio id="audio1" controls>
+        <source src="spotify dupe/Brandy & Monica - The Boy is Mine (Lyrics).mp3" type="audio/mp3">
+    </audio>
+    <button id="play1">PLAY</button><br><br>
+    <button id="pause1">PAUSE</button><br><br>
+
+    <h2>(2)Usher</h2>
+    <img src="spotify dupe/10799.jpeg
+            
+            
+            " class="artist_image"><br>
+    <audio id="audio2" controls>
+        <source src="spotify dupe/Usher - U Remind Me (Official Music Video).mp3" type="audio/mp3">
+    </audio>
+    <button id="play2">PLAY</button><br><br>
+    <button id="pause2">PAUSE</button><br><br>
+
+    <h2>(3)Mario</h2>
+    <img src="spotify dupe/1077.jpeg" class="artist_image"><br>
+    <audio id="audio3" controls>
+        <source src="spotify dupe/Mario - Just a Friend 2002.mp3" type="audio/mp3">
+    </audio>
+    <button id="play3">PLAY</button><br><br>
+    <button id="pause3">PAUSE</button><br><br>
+
+    <h2>(4)Trey Songz</h2>
+    <img src="spotify dupe/1079.jpeg" class="artist_image"> <br>
+    <audio id="audio4" controls>
+        <source src="spotify dupe/Can't Help But Wait Lyrics [Trey Songz].mp3" type="audio/mp3">
+    </audio>
+    <button id="play4">PLAY</button><br><br>
+    <button id="pause4">PAUSE</button><br><br>
+    </p>
+
+    <script>
+        var audio1 = document.getElementById("audio1");
+        var audio2 = document.getElementById("audio2");
+        var audio3 = document.getElementById("audio3");
+        var audio4 = document.getElementById("audio4");
+
+        document.getElementById("play1").addEventListener("click", function () {
+            audio1.play();
+        });
+
+        document.getElementById("pause1").addEventListener("click", function () {
+            audio1.pause();
+        });
+
+        document.getElementById("play2").addEventListener("click", function () {
+            audio2.play();
+        });
+
+        document.getElementById("pause2").addEventListener("click", function () {
+            audio2.pause();
+        });
+
+        document.getElementById("play3").addEventListener("click", function () {
+            audio3.play();
+        });
+
+        document.getElementById("pause3").addEventListener("click", function () {
+            audio3.pause();
+        });
+
+        document.getElementById("play4").addEventListener("click", function () {
+            audio4.play();
+        });
+
+        document.getElementById("pause4").addEventListener("click", function () {
+            audio4.pause();
+        });
+    </script>
+</body>
